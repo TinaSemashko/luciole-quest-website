@@ -25,6 +25,7 @@ html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 .container {
@@ -387,10 +388,15 @@ button.primary:disabled {
   font-family: ui-monospace, "SF Mono", Consolas, monospace;
 }
 
+.table-wrap {
+  margin: 16px 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .legal-content table {
   width: 100%;
   border-collapse: collapse;
-  margin: 16px 0;
   font-size: 14px;
 }
 
