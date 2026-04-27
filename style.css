@@ -253,6 +253,32 @@ button.primary:disabled {
   }
 }
 
+.site-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-secondary);
+  width: 100%;
+  line-height: 1.8;
+}
+
+.site-footer .footer-row {
+  margin: 2px 0;
+}
+
+.site-footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.site-footer a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
 /* ---------- Legal pages (Privacy, ToS) ---------- */
 
 .lang-toggle a {
